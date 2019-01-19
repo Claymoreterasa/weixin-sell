@@ -4,30 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .first {
-            width: 200px;
-            height: 200px;
-            border: 3px solid red;
-        }
-        .second {
-            width: 200px;
-            height: 100px;
-            border: 3px solid blue;
-            position: fixed;
-        }
-        .third {
-            width: 200px;
-            height: 200px;
-            border: 3px solid green;
-        }
-        html {
-            border: dotted;
-        }
+      .relative1 {
+        position: relative;
+      }
+      .relative2 {
+        position: absolute;
+        top: -20px;
+        left: 20px;
+        background-color: white;
+        width: 500px;
+      }
+      .relative3 {
+        /* position: relative; */
+        top: -20px;
+        left: 20px;
+        background-color: white;
+      } */
     </style>
 </head>
 <body>
-<div class="first">123</div>
-<div class="second">456</div>
-<div class="third">789</div>
+<div class="relative1">relative 表现的和 static 一样，除非你添加了一些额外的属性。</div>
+<div class="relative2">relative 表现的和 static 一样，除非你添加了一些额外的属性。</div>
+<div class="relative3">relative 表现的和 static 一样，除非你添加了一些额外的属性。</div>
 </body>
 </html>
